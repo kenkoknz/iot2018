@@ -7,10 +7,15 @@ Project 1
 Raspi pi3 running node red
 Run script to update to latest node red and node.js, this will enable the pallett which will make additional node installation a lot easier
 Install Nodes:
+
 node-red-node-arduino; load firmata and you have analog inputs for the pi
+
 node-red-dashboard
+
 node-red-contrib-sensor-ds18b20; remember to set 1 wir to on in raspi config
+
 node-red-node-dweetio
+
 node-red-contrib-thingspeak
 
 use ds18b20 node to dweet and freeboard to display temperature
