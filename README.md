@@ -11,7 +11,11 @@ node-red-node-arduino; load firmata and you have analog inputs for the pi
 node-red-dashboard
 node-red-contrib-sensor-ds18b20; remember to set 1 wir to on in raspi config
 node-red-node-dweetio
+node-red-contrib-thingspeak
 
 use ds18b20 node to dweet and freeboard to display temperature
+use ds18b20 node to dweet and thingspeak to display temperature
 
 
+ref:
+https://www.bigmessowires.com/2017/06/29/esp8266-freeboard-io-blynk-and-iot/
